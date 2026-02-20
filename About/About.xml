@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<packageId>username.modname</packageId>
-	<name>Mod Template</name>
-	<author>username</author>
+	<packageId>UntouchedWagons.Rimefeller.VGEBiggerGravjumperShip</packageId>
+	<name>Bigger VGE Gravjumper Ship</name>
+	<author>UntouchedWagons</author>
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
-
+	<url>https://github.com/UntouchedWagons/VGE-Bigger-Gravjumper-Ship</url>
 	<modDependencies>
-		<!-- <li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-		</li> -->
+		<li>
+			<packageId>vanillaexpanded.gravship</packageId>
+			<displayName>Vanilla Gravship Expanded - Chapter 1</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3609835606</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 
 	<incompatibleWith>
 		<!-- <li>username.modname</li> -->
 	</incompatibleWith>
-
-	<description>Template</description>
+    <loadAfter>
+        <li>vanillaexpanded.gravship</li>
+    </loadAfter>
+	<description>Increases the base structural capacity of the GravJumper engine from 100 tiles to 175.</description>
 </ModMetaData>

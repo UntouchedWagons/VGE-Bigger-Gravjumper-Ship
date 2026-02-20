@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Gravship Expanded - Chapter 1</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VGE_GravjumperEngine"]/statBases/SubstructureSupport</xpath>
+					<value>
+						<SubstructureSupport>175</SubstructureSupport>
+					</value>
+				</li>
+            </operations>
+        </match>
+    </Operation>
 </Patch>
